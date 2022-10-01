@@ -9,6 +9,10 @@
     vertical-align: middle;
 }
 
+.Texto-salida-muneco {
+    display: none;
+}
+
 .Texto-salida-sinTexto {
     color: #495057;
     display: inline-block;
@@ -37,6 +41,11 @@
         width: 90%;
         margin-left: 5%;
     }
+
+    .Texto-salida-muneco {
+        display: none;
+    }
+
     .Texto-salida-sinTexto {
         height: 69px;
     }
@@ -46,9 +55,44 @@
         height: 29px;
     }
 
-    .Texto-salida-aviso2{
+    .Texto-salida-aviso2 {
         margin-top: 16px;
         line-height: 150%;
         height: 24px;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .Texto-salida {
+        height: 944px;
+        margin-top: 0;
+        margin-left: 0;
+        position: absolute;
+        top: 40px;
+        left: 70%;
+        width: 400px;
+    }
+
+    .Texto-salida-muneco {
+        background: url("../pictures/Muneco.svg") no-repeat center;
+        display: block;
+        margin-left: 32px;
+        margin-top: 243px;
+        height: 304px;
+        width: 336px;
+    }
+
+    .Texto-salida-sinTexto {
+        height: 122px;
+        margin-top: 32px;
+    }
+    
+    .Texto-salida-aviso1 {
+        height: 58px;
+    }
+
+    .Texto-salida-aviso2 {
+        height: 48px;
+    }
+
 }

@@ -56,3 +56,15 @@
     }
 
 }
+
+@media screen and (min-width: 1440px){
+    .Texto-entrada {
+        height: 670px;
+        margin-left: 17%;
+        width: 47%;
+    }
+
+    .Texto-entrada-area {
+       height: 636px;
+    }
+}

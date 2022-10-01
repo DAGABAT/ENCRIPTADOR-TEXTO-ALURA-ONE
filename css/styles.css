@@ -34,3 +34,16 @@ b {
         margin-left: 40px;
     }
 }
+
+
+@media screen and (min-width: 1440px){
+    header {
+        height: 144px;
+        margin-top: 40px ;
+        width: 64%;
+    }
+
+    .cabecera-icono {
+        margin-left: 84px;
+    }
+}
