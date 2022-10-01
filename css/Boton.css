@@ -4,7 +4,7 @@
     height: 158px;
     margin-left: 5%;
     width: 90%;
-    background-color: blanchedalmond;
+    background-color: rgb(210, 160, 85);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,7 +17,9 @@
     border-color: #0A3871;
     background-color: #0A3871;
     color: white;
+    font-family: 'Inter';
     font-size: 16px;
+    font-weight: 400;
     height: 67px;
 }
 
@@ -26,6 +28,24 @@
     border-radius: 24px;
     border-style: solid;
     border-width: 1px;
+    color: #0A3871;
+    font-family: 'Inter';
     font-size: 16px;
+    font-weight: 400;
     height: 67px;
+}
+
+@media screen and (min-width: 768px) {
+    .Boton {
+        flex-direction: row;
+        height: 67px;
+    }
+
+    .Boton-encriptar {
+        width: 48%;
+    }
+
+    .Boton-desencriptar {
+        width: 48%;
+    }
 }

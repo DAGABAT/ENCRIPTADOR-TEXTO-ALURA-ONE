@@ -1,6 +1,6 @@
 
 .Texto-entrada {
-    background-color: bisque;
+    background-color: rgb(220, 163, 163);
     height: 330px;
 }
 
@@ -44,4 +44,18 @@
     width: 280px;
     
     height: 16px;    
+}
+
+@media screen and (min-width: 768px) {
+    .Texto-entrada {
+        height: 600px;
+    }
+
+    .Texto-entrada-area {
+        height: 566px;
+    }
+
+    .Texto-entrada-icono {
+        margin-left: 40px;
+    }
 }

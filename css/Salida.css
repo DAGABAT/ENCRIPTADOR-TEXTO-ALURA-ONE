@@ -1,8 +1,7 @@
-
 .Texto-salida {
     display: inline-block;
     height: 186px;
-    background-color: white;
+    background-color: rgb(189, 228, 138);
     width: 87%;
     margin-left: 6.5%;
     margin-top: 64px;
@@ -18,18 +17,38 @@
     margin-top: 32px;
     width: 80%;
     text-align: center;
-    
-
 }
 
 .Texto-salida-aviso1 {
     font-size: 24px;
     font-weight: 700;
-    height: 58px ;
+    height: 58px;
 }
 
 .Texto-salida-aviso2 {
     font-size: 16px;
     font-weight: 400;
     height: 74px;
+}
+
+@media screen and (min-width: 768px) {
+    .Texto-salida {
+        height: 133px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .Texto-salida-sinTexto {
+        height: 69px;
+    }
+
+    .Texto-salida-aviso1 {
+        line-height: 29px;
+        height: 29px;
+    }
+
+    .Texto-salida-aviso2{
+        margin-top: 16px;
+        line-height: 150%;
+        height: 24px;
+    }
 }

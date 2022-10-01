@@ -1,16 +1,36 @@
 body {
-    background-color: beige;
+    background-color: rgb(203, 203, 73);
 }
 
 header {
     background-color: antiquewhite;
     height: 152px;
     margin-top: 24px;
-
 }
 
 .cabecera-icono {
     background: url("../pictures/Alura_symbol.svg") no-repeat center;
     height: 48px;
     width: 32px;
+    margin-left: 16px;
+}
+
+footer {
+    margin-top: 50px;
+    
+}
+
+b {
+   font-family: 'Inter';
+   font-weight: bold; 
+}
+
+@media screen and (min-width: 767px) {
+    header {
+        margin-top: 74px;
+    }
+
+    .cabecera-icono {
+        margin-left: 40px;
+    }
 }
