@@ -1,0 +1,31 @@
+
+
+.Boton {
+    height: 158px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Boton-encriptar {
+    border-radius: 24px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0A3871;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    height: 67px;
+}
+
+.Boton-desencriptar {
+    border-color: #0A3871;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    height: 67px;
+}

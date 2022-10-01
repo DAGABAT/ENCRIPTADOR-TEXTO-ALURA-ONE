@@ -1,0 +1,35 @@
+
+.Texto-salida {
+    display: inline-block;
+    height: 186px;
+    background-color: white;
+    width: 87%;
+    margin-left: 6.5%;
+    margin-top: 64px;
+    border-radius: 32px;
+    vertical-align: middle;
+}
+
+.Texto-salida-sinTexto {
+    color: #495057;
+    display: inline-block;
+    height: 122px;
+    margin-left: 10%;
+    margin-top: 32px;
+    width: 80%;
+    text-align: center;
+    
+
+}
+
+.Texto-salida-aviso1 {
+    font-size: 24px;
+    font-weight: 700;
+    height: 58px ;
+}
+
+.Texto-salida-aviso2 {
+    font-size: 16px;
+    font-weight: 400;
+    height: 74px;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: antiquewhite;
+    height: 152px;
+    margin-top: 24px;
+
+}
+
+.cabecera-icono {
+    background: url("../pictures/Alura_symbol.svg") no-repeat center;
+    height: 48px;
+    width: 32px;
+}

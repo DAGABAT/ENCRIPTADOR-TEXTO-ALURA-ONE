@@ -1,0 +1,47 @@
+
+.Texto-entrada {
+    background-color: bisque;
+    height: 330px;
+}
+
+.Texto-entrada-area {
+    height: 296px;
+}
+
+.Texto-entrada-form {
+    border: none;
+    background-color: transparent;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.Texto-entrada-aviso {
+    display: flex;
+    margin-bottom: 16px;
+    height: 18px;
+    white-space: nowrap ;
+    width: 300px;
+}
+
+.Texto-entrada-icono {
+    background: url("../pictures/AlertVector.svg") no-repeat center;
+    height: 16px;
+    margin-left: 16px;
+    width: 20px;
+}
+
+.Texto-entrada-cont {
+    color: #495057;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 8px;
+    width: 280px;
+    
+    height: 16px;    
+}

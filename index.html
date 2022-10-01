@@ -1,13 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/styles.css" type="stylesheet">
-    <title>Document</title>
+    <title>Encriptador de Texto Alura</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/Entrada.css" rel="stylesheet">
+    <link href="./css/Boton.css" rel="stylesheet">
+    <link href="./css/Salida.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header class="cabecera">
+        <div class="cabecera-icono"></div>
+    </header>
+    <div class="Texto-entrada">
+        <div class="Texto-entrada-area">
+            <textarea class="Texto-entrada-form">Ingrese el texto aqui</textarea>
+        </div>
+        <div class="Texto-entrada-aviso">
+            <div class="Texto-entrada-icono">
+            </div>
+            <span class="Texto-entrada-cont">Solo letras minusculas y sin acentos</span>
+        </div>
+    </div>
+    <div class="Boton">
+        <button class="Boton-encriptar">ENCRIPTAR</button>
+        <button class="Boton-desencriptar">DESENCRIPTAR</button>
+    </div>
+    <div class="Texto-salida">
+        <div class="Texto-salida-sinTexto">
+            <p class="Texto-salida-aviso1">Ningun mensaje fue encontrado</p>
+            <p class="Texto-salida-aviso2">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+
+    </div>
     <script type="module" src="./js/coneccion.js"></script>
 </body>
+
 </html>
