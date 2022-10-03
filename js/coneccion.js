@@ -10,6 +10,8 @@ const Encriptando = () => {
     console.log(TextoEntrada);
     const textoEncriptado = encriptar(TextoEntrada);
     console.log(textoEncriptado);
+    const Encriptados = document.querySelector('[data-sal-enc]');
+    Encriptados.innerHTML = textoEncriptado;
 }
 
 const desencriptando = () => {
@@ -17,6 +19,8 @@ const desencriptando = () => {
     console.log(EncriptadoEntrada);
     const textoDesEncriptado = desEncriptar(EncriptadoEntrada);
     console.log(textoDesEncriptado);
+    const Desncriptados = document.querySelector('[data-sal-enc]');
+    Desncriptados.innerHTML = textoDesEncriptado;
 }
 
 

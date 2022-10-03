@@ -35,6 +35,22 @@
     height: 74px;
 }
 
+.Texto-salida-encriptado {
+    background-color: white;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 32px;
+    width: 80%;
+}
+
+.resultado {
+    color:#0A3871;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50%;
+}
+
 .oculto {
     display: none;
 }
