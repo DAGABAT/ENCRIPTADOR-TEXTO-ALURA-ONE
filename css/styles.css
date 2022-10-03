@@ -1,9 +1,8 @@
 body {
-    background-color: rgb(203, 203, 73);
+    background-color: #E9ECF8;
 }
 
 header {
-    background-color: antiquewhite;
     height: 152px;
     margin-top: 24px;
 }
@@ -16,13 +15,13 @@ header {
 }
 
 footer {
-    margin-top: 50px;
-    
+    margin-top: 10px;    
 }
 
 b {
    font-family: 'Inter';
    font-weight: bold; 
+   margin-left: 7%;
 }
 
 @media screen and (min-width: 767px) {
@@ -45,5 +44,10 @@ b {
 
     .cabecera-icono {
         margin-left: 84px;
+    }
+
+    b {
+        margin-left: 17%;
+        margin-top: 15px;
     }
 }

@@ -1,12 +1,12 @@
 .Texto-salida {
+    background-color: white;
+    border-radius: 32px;
     display: inline-block;
     height: 186px;
-    background-color: rgb(189, 228, 138);
-    width: 87%;
     margin-left: 6.5%;
     margin-top: 64px;
-    border-radius: 32px;
     vertical-align: middle;
+    width: 87%;
 }
 
 .Texto-salida-muneco {
@@ -14,29 +14,31 @@
 }
 
 .Texto-salida-sinTexto {
-    color: #495057;
+    color: #072B61;
     display: inline-block;
+    font-family: 'Inter';
     height: 122px;
     margin-left: 10%;
     margin-top: 32px;
-    width: 80%;
     text-align: center;
+    width: 80%;   
 }
 
 .Texto-salida-aviso1 {
     font-size: 24px;
     font-weight: 700;
     height: 58px;
+    line-height: 29px;
 }
 
 .Texto-salida-aviso2 {
     font-size: 16px;
     font-weight: 400;
     height: 74px;
+    line-height: 24px;
 }
 
 .Texto-salida-encriptado {
-    background-color: white;
     height: 80%;
     margin-left: 10%;
     margin-top: 32px;
