@@ -9,6 +9,7 @@ export const encriptar = (texto) => {
             texto = texto.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
         }
     }
+    visualizacion();
     return texto;
 }
 
@@ -24,6 +25,18 @@ export const desEncriptar = (texto) => {
             texto = texto.replaceAll(matrizCodigoInv[i][0], matrizCodigoInv[i][1]);
         }
     }
+    visualizacion();
     console.log(texto);
     return texto;   
+}
+
+const visualizacion = () =>{
+    const Ocultando = document.querySelector('[data-sal-a]');
+    const Mostrando = document.querySelector('[data-sal-b]');
+
+    Ocultando.classList.toggle ('oculto');
+    Mostrando.classList.toggle ('oculto');
+    Ocultando.classList.toggle ('Texto-salida');
+    Mostrando.classList.toggle ('Texto-salida');
+
 }

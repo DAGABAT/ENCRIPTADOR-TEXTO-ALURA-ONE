@@ -35,6 +35,10 @@
     height: 74px;
 }
 
+.oculto {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .Texto-salida {
         height: 133px;
